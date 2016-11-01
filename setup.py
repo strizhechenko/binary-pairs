@@ -15,7 +15,7 @@ def read(*paths):
 
 setup(
     name='binary-pairs',
-    version='0.0.1',
+    version='0.0.3',
     author='Oleg Strizhechenko',
     author_email='oleg.strizhechenko@gmail.com',
     license='GPL',
