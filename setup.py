@@ -19,7 +19,7 @@ setup(
     author='Oleg Strizhechenko',
     author_email='oleg.strizhechenko@gmail.com',
     license='GPL',
-    url='https://github.com/strizhechenko/binary_pairs',
+    url='https://github.com/strizhechenko/binary-pairs',
     keywords='combinatoric testing utils fuzz pairwise nwise reduce',
     description='Utility designed for check combinations of multiple binary params',
     long_description=(read('README.rst')),
