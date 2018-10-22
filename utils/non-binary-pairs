@@ -1,0 +1,9 @@
+import sys
+from metacomm.combinatorics.all_pairs2 import all_pairs2 as all_pairs
+
+if __name__ == '__main__':
+    with open(sys.argv[1]) as pairs_file:
+        lines = map(str.strip, pairs_file.readlines())
+        params = [line.split('\t') for line in lines]
+        result = all_pairs(params)
+        print("\n".join(["\t".join(map(str, row)) for row in result]))
